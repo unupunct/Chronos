@@ -1,0 +1,17 @@
+# Build output
+bin/
+obj/
+publish/
+
+# Runtime data (portable-first: written next to the exe, never committed)
+*.log
+*.analysis.txt
+
+# IDE / tooling
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Test results
+TestResults/
