@@ -4,6 +4,7 @@
         xmlns:local="clr-namespace:Chronos"
         xmlns:vm="clr-namespace:Chronos.ViewModels"
         Title="Chronos - Windows Timeline"
+        Icon="Assets/chronos.ico"
         Width="1380" Height="860" MinWidth="1050" MinHeight="640"
         WindowStartupLocation="CenterScreen"
         Background="{StaticResource Bg}"

@@ -13,6 +13,7 @@
     <Product>Chronos - Windows Timeline</Product>
     <Description>Unified chronological timeline of everything that happened on a Windows PC.</Description>
     <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\chronos.ico</ApplicationIcon>
     <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
     <InvariantGlobalization>false</InvariantGlobalization>
   </PropertyGroup>
@@ -32,6 +33,10 @@
   <ItemGroup>
     <PackageReference Include="System.Diagnostics.EventLog" Version="8.0.0" />
     <PackageReference Include="System.Management" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\chronos.ico" />
   </ItemGroup>
 
 </Project>
